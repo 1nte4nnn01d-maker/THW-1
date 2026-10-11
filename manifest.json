@@ -1,0 +1,20 @@
+{
+  "flags": "assets/flags/{iso}.svg",
+  "audio": {
+    "ambient": [
+      "assets/audio/ambient.ogg",
+      "assets/audio/ambient.mp3"
+    ],
+    "click": [
+      "assets/audio/click.ogg",
+      "assets/audio/click.mp3"
+    ],
+    "turn": [
+      "assets/audio/turn.ogg",
+      "assets/audio/turn.mp3"
+    ]
+  },
+  "credits": [
+    "Flags: flag-icons 7.2.3 (MIT) https://github.com/lipis/flag-icons"
+  ]
+}
