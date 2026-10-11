@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e1626">
+<title>Великая война: реальная карта мира</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<div id="top"></div>
+<div id="wrap"><canvas id="cv"></canvas><canvas id="lb"></canvas><div id="zb"><button id="snd" aria-label="Звук (M)" title="Звук (M)"></button><button onclick="zoomBy(1.5)" aria-label="Приблизить">+</button><button onclick="zoomBy(1/1.5)" aria-label="Отдалить">−</button></div></div>
+<div id="toast"></div><div id="card"></div><div id="more" class="sheet"></div><div id="dip" class="sheet"></div><div id="ev" class="sheet"></div>
+<div id="ldr">Загрузка карты…</div>
+<script src="js/loader.js"></script>
+<script>Loader.start(["js/assets.js","js/supply.js","js/ai.js","js/audio.js","js/game.js","js/diplomat.js","js/boot.js"],{tolerance:.75})</script>
+</body></html>
